@@ -57,27 +57,27 @@ pieņemot, ka vismaz vienu reizi tiek izmantots pilsētas sabiedriskais transpor
 ![Sasniedzamības karte](reachability_ratio_map_lv.png "Sasniedzamības karte")
 ![Sasniedzamība atkarībā no attāluma no pilsētas centra](reachability_ratio_lv.png "Sasniedzamība atkarībā no attāluma no pilsētas centra")
 
-Vizualizācijās novērojamas atšķirības sasniedzamībā dažādās pilsētas daļās. Interesanti, ka pat salīdzinoši nelieli attālumi no pilsētas centra var radīt būtiskas atšķirības. Piemēram, 2 km no centra sasniedzamības rādītājs var svārstīties no 0.34 līdz 0.61. Šie secinājumi, papildināti ar papildu analīzi, var kalpot par pamatu ieteikumiem sabiedriskā transporta tīkla uzlabošanai.
+Vizualizācijās novērojamas atšķirības sasniedzamībā dažādās pilsētas daļās. Vērts atzīmēt, ka pat salīdzinoši nelieli attālumi no pilsētas centra var radīt būtiskas atšķirības. Piemēram, 2 km no centra sasniedzamības rādītājs var svārstīties no 0,34 līdz 0,61. Šie secinājumi, papildināti ar papildu analīzi, var tikt izmantots ieteikumiem sabiedriskā transporta tīkla uzlabošanai.
 
 
 ### Konteksts
 '2023. gadā Rīgas Dome uzsāka projektu "Esošās situācijas analīze un scenāriju izstrāde Rīgas valstspilsētas sabiedriskā transporta maršrutu tīkla reformas rīcības plānam". 2025. gada sākumā pašvaldības iepirkums tika veiksmīgi noslēgts ar līgumsummu gandrīz 365 tūkstoši eiro [3].
 
-Viens no projekta uzdevumiem paredz, ka pasūtītājam jāveic "Ceļojuma laika analīze (ieskaitot kartogrāfisko analīzi ar izokronām) attiecībā uz teritorijām un pakalpojumiem, kas ir pieejami ar privāto transportu no dažādām pilsētas daļām(...)" [3].
+Viens no projekta uzdevumiem paredz, ka pasūtītājam jāveic "Veikt pārvietošanās laika analīzi (t.sk. kartogrāfiski ar izohronām) attiecībā pret ar privāto autotransportu sasniedzamajām teritorijām un pakalpojumiem no dažādām pilsētas daļām (...)" [3].
 
 Šis projekts nav paredzēts, lai pilnībā izpildītu šo uzdevumu vai sniegtu būtiskus secinājumus vai ieteikumus. Tomēr tas demonstrē, kā izmantot atvērtos datus reālu problēmu analīzei un rezultātu vizualizācijai.
 
 Daži **iespējamie ierobežojumi un uzlabojumi**:
 
 - Sasniedzamības simulācijā netiek ņemti vērā dabas vai antropogēnie objekti (piemēram, Daugavas upe kā dabas šķērslis).
-- Analīzei tiek ņemts vērā tikai konkrēts laiks (ceturtdiena, 8:00, 2024. gada oktobrī).
+- Analīzei tiek ņemts vērā tikai konkrēts laiks (ceturtdienaas plkst. 8:00 2024. gada decembrī).
 - Tiek ņemts vērā tikai Rīgas Satiksmes sabiedriskā transporta tīkls (starppilsētu autobusi vai vilcieni netiek iekļauti).
 - Tiek analizēti tikai oficiāli ieplānotie pieturu laiki, nevis faktiski atbraukšanas laiki, balstoties uz GPS datiem.
-- Cilvēku ieradumi nav īpaši ņemti vērā (modelis pieņem, ka cilvēks var gājienā nobraukt 4,8 km līdz tuvākajai autobusu pieturai).
-- Uzlabojums: Ņemt vērā iedzīvotāju skaitu, nevis tikai pilsētas teritoriju kā sasniedzamības noteicošo faktoru.
+- Cilvēku ieradumi nav īpaši ņemti vērā (modelis pieņem, ka cilvēks ar kājām dosies 4,8 km līdz tuvākajai pieturvietai).
+- Uzlabojums: Ņemt vērā iedzīvotāju skaitu, nevis tikai platību kā sasniedzamības noteicošo faktoru.
 
 ### Piezīmes
-Projekta izstrādei tika izmantoti AI atbalstīti kodēšanas rīki IDE (modelis *Claude 3.7 Sonnet*). Šī teksta pārtulkošanai no angļu valodas izmantots *o3-mini* Programmatūra tiek nodrošināta "tāda, kāda tā ir" bez jebkādām garantijām ikvienam, kam tas interesē (skatīt LICENSE failu). Jebkādiem būtiskiem labojumiem, lūdzu, sazinies ar mani: d e v @ m a r t i n s . o r g.
+Projekta izstrādei tika izmantoti AI atbalstīti kodēšanas rīki IDE (modelis *Claude 3.7 Sonnet*). Šī teksta pārtulkošanai no angļu valodas izmantots *o3-mini* Programmatūra tiek nodrošināta "tāda, kāda tā ir" bez jebkādām garantijām ikvienam, kam tas interesē (skatīt LICENCE failu). Ieteikumu vai labojumu prasību gadījumā, lūdzu, sazinies ar mani d e v @ m a r t i n s . o r g.
 
 
 ### References / Atsauces
