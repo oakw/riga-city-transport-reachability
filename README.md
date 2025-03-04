@@ -4,11 +4,11 @@ Code available in file `notebook.ipynb`.
 Latvian below / Latviski zemāk.
 
 ### Introduction
-🇬🇧 The Riga public transport network has not been fundamentally changed for over 30 years [1]. Urbanization and population trends, infrastructure, and habits, however, have changed [2]. Furthermore, improvements in the intercity and railway network, including the emergence of the Rail Baltica project, have increased pressure on the capital of Latvia to reconsider its current public transport network system.
+The Riga public transport network has not been fundamentally changed for over 30 years [1]. Urbanization and population trends, infrastructure, and habits, however, have changed [2]. Furthermore, improvements in the intercity and railway network, including the emergence of the Rail Baltica project, have increased pressure on the capital of Latvia to reconsider its current public transport network system.
 
 
 ### Reachability Ratio
-🇬🇧 In this project, the accessibility (reachability) of city areas from populated city areas is defined as
+In this project, the accessibility (reachability) of city areas from populated city areas is defined as
 $$ \text{Reachability} = \frac{\text{city area reachable in one hour}}{\text{total city area}}$$
 
 given that at least one public transport option is taken. By combining several open data sets of Latvia's Central Bureau of Statistics and Rigas Satiksme, a map of the reachability ratio for each $100m \times 100m$ city grid square was created.
@@ -22,7 +22,7 @@ Visualizations identify differences in reachability across different city areas.
 
 ### Context
 
-🇬🇧 In 2023, Riga City Council started work on the project "**Analysis of the Current Situation and Scenario Development for the Action Plan of the Public Transport Route Network Reform in Riga City**". At the beginning of 2025, the municipality procurement ended successfully with the sum agreed by contract of nearly 365 thousand euros [3].
+In 2023, Riga City Council started work on the project "**Analysis of the Current Situation and Scenario Development for the Action Plan of the Public Transport Route Network Reform in Riga City**". At the beginning of 2025, the municipality procurement ended successfully with the sum agreed by contract of nearly 365 thousand euros [3].
 
 Among other tasks, the contractor has to "Conduct an analysis of travel time (including cartographic analysis with isochrones) in relation to areas and services accessible by private transport from different parts of the city(..)" [3]
 
@@ -38,7 +38,7 @@ Some potential **limitations and improvements**:
 
 
 ### Notes
-🇬🇧 AI-assisted coding tools in the IDE were used to complete this project (model *Claude 3.7 Sonnet*). The code is provided as-is without any guarantees for anyone interested (see LICENSE). Feel free to contact me for any substantial corrections at d e v @ m a r t i n s . o r g.
+AI-assisted coding tools in the IDE were used to complete this project (model *Claude 3.7 Sonnet*). The code is provided as-is without any guarantees for anyone interested (see LICENSE). Feel free to contact me for any substantial corrections at d e v @ m a r t i n s . o r g.
 
 
 
@@ -61,7 +61,7 @@ Vizualizācijās novērojamas atšķirības sasniedzamībā dažādās pilsētas
 
 
 ### Konteksts
-🇱🇻 2023. gadā Rīgas Dome uzsāka projektu "Esošās situācijas analīze un scenāriju izstrāde Rīgas valstspilsētas sabiedriskā transporta maršrutu tīkla reformas rīcības plānam". 2025. gada sākumā pašvaldības iepirkums tika veiksmīgi noslēgts ar līgumsummu gandrīz 365 tūkstoši eiro [3].
+'2023. gadā Rīgas Dome uzsāka projektu "Esošās situācijas analīze un scenāriju izstrāde Rīgas valstspilsētas sabiedriskā transporta maršrutu tīkla reformas rīcības plānam". 2025. gada sākumā pašvaldības iepirkums tika veiksmīgi noslēgts ar līgumsummu gandrīz 365 tūkstoši eiro [3].
 
 Viens no projekta uzdevumiem paredz, ka pasūtītājam jāveic "Ceļojuma laika analīze (ieskaitot kartogrāfisko analīzi ar izokronām) attiecībā uz teritorijām un pakalpojumiem, kas ir pieejami ar privāto transportu no dažādām pilsētas daļām(...)" [3].
 
